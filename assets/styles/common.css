@@ -35,6 +35,7 @@
   padding: 25px 41px;
   color: var(--btn-text-color);
   background-color: var(--accent-color);
+  border: 0;
 }
 
 .img {
