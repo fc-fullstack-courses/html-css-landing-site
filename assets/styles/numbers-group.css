@@ -1,0 +1,39 @@
+.numbers-group {
+    background-color: var(--accent-color);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container-number-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.stationery-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.div-numbers-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    color: var(--btn-text-color);
+}
+
+@media screen and (min-width: 992px) {
+    .numbers-group {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .container-number-group {
+        justify-content: space-between;
+    }
+
+    .stationery-group {
+        margin-bottom: 0;
+    }
+}
