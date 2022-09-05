@@ -1,0 +1,53 @@
+.want-website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.website-input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.website-form-input {
+    display: flex;
+    align-self: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.website-textarea,
+.website-form-input {
+    border: none;
+    padding: 18px 20px;
+    text-align: left;
+}
+
+.website-textarea {
+    width: 90%;
+    height: 175px;
+    resize: none;
+}
+
+.website-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 576px){
+    .website-input-div {
+        flex-direction: row;
+        margin-top: 65px;
+    }
+
+    .website-form-input {
+        width: 47%;
+    }
+
+    .website-textarea {
+        width: 100%;
+    }
+}

@@ -1,3 +1,7 @@
+.microsoft-section {
+    padding-bottom: 40px;
+}
+
 .div-microsoft {
     margin: 0 auto;
     min-width: 100px;
@@ -24,10 +28,6 @@
 }
 
 @media screen and (min-width: 992px) {
-    .microsoft-section {
-        padding: 40px 0;
-    }
-
     .div-microsoft {
         margin: 0;
     }
